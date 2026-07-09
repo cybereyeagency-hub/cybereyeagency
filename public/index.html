@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberEye Agency &mdash; Bezpieczeństwo cyfrowe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">CyberEye<span>Agency</span></div>
+      <nav>
+        <a href="#uslugi">Usługi</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Chronimy Twoją firmę w cyfrowym świecie</h1>
+        <p>Audyty bezpieczeństwa, testy penetracyjne i reagowanie na incydenty &mdash; zaufaj ekspertom CyberEye Agency.</p>
+        <a href="#kontakt" class="cta">Skontaktuj się z nami</a>
+      </div>
+    </section>
+
+    <section id="uslugi" class="services">
+      <div class="container">
+        <h2>Nasze usługi</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Testy penetracyjne</h3>
+            <p>Symulowane ataki, które wykrywają luki w Twoich systemach zanim zrobią to prawdziwi hakerzy.</p>
+          </div>
+          <div class="card">
+            <h3>Audyt bezpieczeństwa</h3>
+            <p>Kompleksowa ocena infrastruktury IT i zgodności z normami bezpieczeństwa.</p>
+          </div>
+          <div class="card">
+            <h3>Reagowanie na incydenty</h3>
+            <p>Szybka reakcja i wsparcie 24/7 w przypadku naruszenia bezpieczeństwa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="contact">
+      <div class="container">
+        <h2>Skontaktuj się z nami</h2>
+        <p>Opisz swoją sytuację, a nasz asystent AI od razu skategoryzuje zgłoszenie, aby przyspieszyć odpowiedź naszego zespołu.</p>
+
+        <form id="contact-form">
+          <label for="name">Imię i nazwisko</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Adres e-mail</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Wiadomość</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Wyślij zgłoszenie</button>
+        </form>
+
+        <div id="form-status" class="form-status" role="status"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 CyberEye Agency. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
