@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Shopify__*",
+      "mcp__Gmail__*",
+      "mcp__Canva__*",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
