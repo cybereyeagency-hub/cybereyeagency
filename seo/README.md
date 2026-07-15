@@ -46,6 +46,7 @@ przeglądarce lub wdrożenia na hosting statyczny.
 | Gierłoż | [`gierloz-2026.html`](gierloz-2026.html) |
 | Giżycko | [`gizycko-2026.html`](gizycko-2026.html) |
 | Gołdap | [`goldap-2026.html`](goldap-2026.html) |
+| Zakopane (lokalne SEO — „jak się wyróżnić") | [`zakopane-pozycjonowanie-lokalne.html`](zakopane-pozycjonowanie-lokalne.html) |
 
 ## Uwagi
 
